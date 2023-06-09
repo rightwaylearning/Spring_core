@@ -7,17 +7,7 @@ public class Travel {
 	private String destination;
 	private String source;
 	private Vehicle vehicle;
-    private int[] arr;
-    
-    
-    public void setArr(int[] arr) {
-		this.arr = arr;
-	}
-    
-    public int[] getArr() {
-		return arr;
-	}
-    
+    private int[] arr;	
 	public String getDestination() {
 		return destination;
 	}

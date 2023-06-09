@@ -398,3 +398,411 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-06-08 20:10:34,487 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
 2023-06-08 20:10:34,489 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-06-08 20:10:34,489 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 16:08:48,779 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-09 18:19:30,212 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:19:30,214 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:19:30,216 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:19:30,217 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:21:29,502 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:21:29,502 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:21:29,505 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:21:29,506 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:22:08,053 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:22:08,054 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:22:08,056 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:22:08,056 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:22:12,949 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:22:12,949 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:22:12,952 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:22:12,952 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:23:11,550 [Worker-29: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:23:11,551 [Worker-29: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:23:11,554 [Worker-29: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:23:11,555 [Worker-29: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:24:15,772 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:24:15,773 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:24:15,774 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:24:15,779 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:25:31,908 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 18:25:31,909 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\springfirstapp\src\main\resources
+2023-06-09 18:25:31,910 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 18:25:31,910 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\springfirstapp\src\test\resources
+2023-06-09 18:25:42,556 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 18:25:42,556 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\springfirstapp\src\main\resources
+2023-06-09 18:25:42,558 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 18:25:42,558 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\springfirstapp\src\test\resources
+2023-06-09 18:26:16,357 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:26:16,358 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:26:16,359 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:26:16,360 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:27:05,227 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:05,228 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:27:05,229 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:05,230 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:27:07,600 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:07,600 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:27:07,601 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:07,602 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:27:50,028 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:50,028 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:27:50,029 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:50,030 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:27:51,854 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:51,854 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:27:51,856 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:27:51,856 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 18:56:31,301 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: right.way.learning:first.application:0.0.1-SNAPSHOT @ D:\Spring_core\first.application\pom.xml.
+2023-06-09 18:56:31,408 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:56:31,409 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 18:56:31,410 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 18:56:31,411 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:02:30,104 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:02:30,104 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:02:30,107 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:02:30,111 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:03:34,730 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:03:34,732 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:03:34,736 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:03:34,740 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:05:34,042 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:05:34,043 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:05:34,044 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:05:34,045 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:08:10,700 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:08:10,701 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:08:10,705 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:08:10,707 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:09:19,643 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:09:19,644 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:09:19,646 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:09:19,647 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:10:26,047 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:10:26,047 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:10:26,048 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:10:26,049 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:11:02,446 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:11:02,447 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:11:02,448 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:11:02,448 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:11:36,461 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:11:36,461 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:11:36,463 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:11:36,464 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:11:58,591 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:11:58,592 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:11:58,594 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:11:58,594 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:12:02,546 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:12:02,547 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:12:02,548 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:12:02,549 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:12:05,764 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:12:05,765 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:12:05,766 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:12:05,766 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:13:48,561 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:13:48,562 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:13:48,565 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:13:48,565 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:16:12,201 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:16:12,202 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:16:12,203 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:16:12,204 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:16:31,141 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:16:31,142 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:16:31,143 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:16:31,143 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:17:05,619 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:17:05,620 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:17:05,622 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:17:05,623 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:17:12,518 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:17:12,518 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:17:12,519 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:17:12,520 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:17:56,086 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:17:56,087 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\main\resources
+2023-06-09 19:17:56,088 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:17:56,088 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\first.application\src\test\resources
+2023-06-09 19:21:25,017 [Worker-41: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references non-existing project springfirstapp.
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project springfirstapp.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-06-09 19:21:25,018 [Worker-41: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references non-existing project springfirstapp.
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project springfirstapp.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-06-09 19:21:25,026 [Worker-41: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration App references non-existing project springfirstapp.
+org.eclipse.core.runtime.CoreException: Launch configuration App references non-existing project springfirstapp.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:832)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-06-09 19:22:06,774 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [269])
+2023-06-09 19:22:06,790 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-06-09 19:22:06,791 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-06-09 19:22:06,792 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-06-09 19:22:06,793 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-06-09 19:22:06,794 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-06-09 19:22:06,795 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-06-09 19:22:06,795 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-06-09 19:22:06,795 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-06-09 19:22:06,795 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-06-09 19:22:06,796 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-06-09 19:22:06,796 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-06-09 19:22:06,796 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-06-09 19:22:06,797 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-06-09 19:22:06,797 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-06-09 19:22:06,797 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-06-09 19:22:06,797 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-06-09 19:22:06,798 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-06-09 19:22:06,798 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-06-09 19:22:06,798 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-06-09 19:22:06,798 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-06-09 19:22:06,799 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-06-09 19:22:06,801 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [8])
+2023-06-09 19:22:06,804 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-06-09 19:22:06,804 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [433])
+2023-06-09 19:22:06,805 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-06-09 19:22:06,805 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [18])
+2023-06-09 19:22:06,806 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-06-09 19:22:06,806 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [16])
+2023-06-09 19:22:06,808 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\sachi\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-06-09 19:22:06,812 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\sachi\AppData\Local\Temp\m2e-archetypeGenerator14653305064603919181":
+2023-06-09 19:22:06,813 [Worker-38: Launching mavenrun-773c3018-00a7-430f-8857-3d0e5d08ebc2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=right.way.learning -DartifactId=second.application -Dversion=0.0.1-SNAPSHOT -Dpackage=right.way.learning.second.application -DoutputDirectory=D:\Spring_core -Dstyle.color=always -U archetype:generate
+2023-06-09 19:22:19,495 [Worker-41: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Spring_core\second.application\pom.xml
+2023-06-09 19:22:19,570 [Worker-41: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: right.way.learning:second.application:0.0.1-SNAPSHOT @ D:\Spring_core\second.application\pom.xml.
+2023-06-09 19:22:19,855 [Worker-41: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /second.application/src/main/java
+2023-06-09 19:22:19,865 [Worker-41: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /second.application/src/test/java
+2023-06-09 19:22:19,961 [Worker-41: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2023-06-09 19:22:20,181 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 19:22:20,181 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:22:20,183 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 19:22:20,183 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:23:03,861 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: right.way.learning:second.application:0.0.1-SNAPSHOT @ D:\Spring_core\second.application\pom.xml.
+2023-06-09 19:23:03,877 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:23:03,878 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:23:03,879 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:23:03,879 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:23:21,093 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: right.way.learning:second.application:0.0.1-SNAPSHOT @ D:\Spring_core\second.application\pom.xml.
+2023-06-09 19:23:21,124 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:23:21,124 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:23:21,125 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:23:21,126 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:23:22,266 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:23:22,267 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:23:22,268 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:23:22,268 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:24:28,481 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:24:28,482 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:24:28,483 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:24:28,483 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:24:41,514 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:24:41,515 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:24:41,517 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:24:41,518 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:24:53,629 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:24:53,629 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:24:53,630 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:24:53,630 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:25:16,777 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:25:16,777 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:25:16,779 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:25:16,779 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:25:31,126 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:25:31,126 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:25:31,127 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:25:31,128 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:25:44,496 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:25:44,496 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:25:44,497 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:25:44,498 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:26:04,388 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:26:04,388 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:26:04,390 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:26:04,392 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:26:38,768 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:26:38,768 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:26:38,770 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:26:38,770 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:27:00,186 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:27:00,187 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:27:00,187 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:27:00,188 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:27:21,821 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:27:21,822 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:27:21,823 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:27:21,824 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:28:00,904 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:28:00,904 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:28:00,905 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:28:00,907 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:28:39,267 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:28:39,267 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:28:39,268 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:28:39,269 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:28:49,106 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:28:49,107 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:28:49,108 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:28:49,108 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:29:31,070 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:29:31,070 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:29:31,071 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:29:31,071 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:29:52,382 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:29:52,383 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:29:52,384 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:29:52,385 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:30:15,135 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:30:15,135 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:30:15,136 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:30:15,137 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:30:21,125 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:30:21,126 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:30:21,127 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:30:21,127 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:31:51,376 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:31:51,377 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:31:51,378 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:31:51,378 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:32:06,748 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:32:06,749 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:32:06,750 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:32:06,750 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:32:51,446 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:32:51,446 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:32:51,447 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:32:51,448 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:33:04,220 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:33:04,222 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:33:04,224 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:33:04,225 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:34:38,899 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:34:38,900 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:34:38,902 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:34:38,903 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:35:00,388 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:35:00,389 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:35:00,391 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:35:00,391 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:35:07,153 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:35:07,155 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:35:07,157 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:35:07,159 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:35:50,659 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:35:50,659 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:35:50,660 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:35:50,661 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:37:34,319 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:37:34,320 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:37:34,321 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:37:34,322 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:37:56,586 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:37:56,586 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:37:56,587 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:37:56,588 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:38:04,435 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:04,436 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:38:04,437 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:04,437 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:38:12,686 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:12,687 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:38:12,688 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:12,689 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:38:35,350 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:35,351 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:38:35,352 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:35,353 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:38:48,046 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:48,047 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:38:48,048 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:38:48,049 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:39:25,076 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:39:25,076 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:39:25,078 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:39:25,078 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:39:50,109 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:39:50,110 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:39:50,111 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:39:50,111 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:40:22,860 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:40:22,860 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:40:22,861 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:40:22,862 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources
+2023-06-09 19:40:58,938 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:40:58,940 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\main\resources
+2023-06-09 19:40:58,940 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-09 19:40:58,942 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\second.application\src\test\resources

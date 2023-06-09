@@ -25,10 +25,5 @@ public class App
         Vehicle v=travel.getVehicle();
         v.go();
     	
-        for (int i = 0; i < travel.getArr().length; i++) {
-			System.out.println(travel.getArr()[i]);
-		}
-        
-        
     }
 }

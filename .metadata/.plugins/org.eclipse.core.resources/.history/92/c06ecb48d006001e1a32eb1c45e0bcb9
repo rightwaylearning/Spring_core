@@ -8,13 +8,7 @@
         <property name="destination" value="PUNE"></property>
         <property name="source" value="Mumbai"></property>
 	    <property name="vehicle" ref="b"></property>
-	    <property name="arr">
-			<list>
-				<value>12</value>
-				<value>24</value>
-				<value>36</value>
-			</list>
-		</property>
+	     <property name="vehicle1" ref="b1"></property>
    </bean>
   
    <bean id="b" class="right.way.learning.second.application.beans.Bike">
