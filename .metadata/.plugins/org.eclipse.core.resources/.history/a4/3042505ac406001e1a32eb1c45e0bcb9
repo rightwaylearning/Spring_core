@@ -1,0 +1,19 @@
+package right.way.learning.first.application;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    	// activate container
+    	// pass config file to container
+    	// request to container please give me student object
+    	// then call toString method on object
+    	
+    	
+    }
+}

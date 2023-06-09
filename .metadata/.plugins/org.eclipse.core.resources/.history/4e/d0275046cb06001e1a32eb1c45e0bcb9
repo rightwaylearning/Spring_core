@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+    <bean id="std"  class="right.way.learning.first.application.Student">
+		
+		<property name="rollNumber" value="23"></property>
+		<property name="fullName" value="Madhukar Deshpande"></property>
+		<property name="schoolName" value="MG school"></property>
+	
+	</bean>    
+        
+        
+        
+</beans>        

@@ -1,0 +1,26 @@
+package right.way.learning.first.application;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+  
+    	
+    	// 1] BeanFactroy (I)>> spring 6.X >> this container is removed 
+    	// 2] ApplicationContext (I) 
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    }
+}
