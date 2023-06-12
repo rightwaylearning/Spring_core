@@ -25,6 +25,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="right.way.learning.second.application"/>
 			<item value="right.way.learning.first.application"/>
 			<item value="right.way.learning.springfirstapp"/>
 		</list>
@@ -32,6 +33,7 @@
 			<item value="right.way.learning"/>
 		</list>
 		<list key="artifactId">
+			<item value="second.application"/>
 			<item value="first.application"/>
 			<item value="springfirstapp"/>
 		</list>

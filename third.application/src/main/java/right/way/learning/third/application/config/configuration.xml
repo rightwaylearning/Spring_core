@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      
+      
+     <bean id="emp" class="right.way.learning.third.application.employee.Employee">
+		 <property name="name" value="RaghuRajan"></property>
+		 <property name="employeeId" value="6789"></property>
+		 <property name="address" ref="adr"></property>
+		 <property name="joiningDate" ref="jdate"></property>
+		 <property name="mobilesNumber">
+			 <list>
+				 <value>9876543456</value>
+				 <value>7654367890</value>
+				 <value>4567894523</value>
+			 </list>
+		 </property>
+	 </bean> 
+	 
+	 <bean id="adr" class="right.way.learning.third.application.employee.Address">
+		 <property name="line1" value="c 505, B A vermont"></property>
+		 <property name="line2" value="baif road wagholi"></property>
+		 <property name="pinCode" value="412207"></property>
+	 </bean>
+      
+     <bean id="jdate" class="java.util.Date">
+     </bean>   
+        
+</beans>
+  
