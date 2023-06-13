@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+  
+   <bean id="id1" class="right.way.learning.second.application.constructor.Student">
+	   <constructor-arg value="Sanjay" index="0"/>
+	   <constructor-arg value="23" index="1"/>
+	   <constructor-arg  ref="adr"  index="2"/>
+	   <constructor-arg name="mobiles" index="3" >
+		   <list>
+			   <value>345845</value>
+			   <value>345545</value>
+		   </list>
+	   </constructor-arg>
+	   <constructor-arg name="numbers" index="4">
+		    <list>
+			   <value>4584598765</value>
+			   <value>4554545678</value>
+		   </list>
+	   </constructor-arg>
+	   <constructor-arg name="setValues" index="5">
+		   <set>
+			   <value>4584598765</value>
+			   <value>4554545678</value>
+		   </set>
+	   </constructor-arg>
+	   <constructor-arg name="map" index="6">
+		   <map>
+			   <entry key="s1" value="101"></entry>
+			   <entry key="s2" value="102"></entry>
+		   </map>
+	   </constructor-arg>
+	   <constructor-arg name="p" index="7">
+		   <props>
+			   <prop key="p1">abc</prop>
+                <prop key="p2">pqr</prop>
+			</props>
+		   
+	   </constructor-arg>
+   </bean>
+   
+   <bean id="adr" class="right.way.learning.second.application.constructor.Address">
+	   <property name="line" value="C 505 , B A "></property>
+   </bean>
+  
+  
+</beans>  

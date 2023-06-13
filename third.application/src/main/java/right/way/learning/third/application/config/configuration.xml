@@ -15,6 +15,51 @@
 				 <value>4567894523</value>
 			 </list>
 		 </property>
+		 <property name="members">
+			 <list>
+				<ref bean="m1" />
+				<ref bean="m2"/>
+			 </list>
+		 </property>
+		 <property name="mobileNumberList">
+			<list>
+				 <value>9876543456</value>
+				 <value>7654367890</value>
+				 <value>4567894523</value>
+			 </list>
+		 </property>
+		 <property name="listOfMembers">
+			 <list>
+				<ref bean="m1" />
+				<ref bean="m2"/>
+			 </list>
+		 </property>
+		 <property name="lastThreeSalaries">
+			 <set>
+				 <value>28456.90</value>
+				 <value>23456.90</value>
+				 <value>24456.90</value>
+			 </set>
+		 </property>
+		 <property name="mobileNumberSet">
+			 <set>
+				 <ref bean="m1" />
+				 <ref bean="m2"/>
+			 </set>
+		 </property>
+		 <property name="monthWiseSalary">
+			 <map>
+		       <entry key="s1" value="8970.90"></entry>		 
+			    <entry key="s2" value="18970.90"></entry>			 
+			 </map>
+		 </property>
+		 <property name="properties">
+			 <props>
+				 <prop key="s1">44578899</prop>
+				 <prop key="s2">788990998</prop>
+				 <prop key="s3">7886699</prop>
+			 </props>
+		 </property>
 	 </bean> 
 	 
 	 <bean id="adr" class="right.way.learning.third.application.employee.Address">
@@ -24,7 +69,19 @@
 	 </bean>
       
      <bean id="jdate" class="java.util.Date">
-     </bean>   
+     </bean>  
+     
+     <bean id="m1" class="right.way.learning.third.application.employee.FamilyMember">
+		 <property name="name" value="Suraj"></property>
+		 <property name="age" value="20"></property>
+		 <property name="relationShip" value="brother"></property>
+	 </bean> 
+	 
+	 <bean id="m2" class="right.way.learning.third.application.employee.FamilyMember">
+		 <property name="name" value="Mira"></property>
+		 <property name="age" value="22"></property>
+		 <property name="relationShip" value="sister"></property>
+	 </bean> 
         
 </beans>
   
