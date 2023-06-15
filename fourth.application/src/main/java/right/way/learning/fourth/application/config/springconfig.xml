@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <bean id="sc" class="right.way.learning.fourth.application.School" autowire="byType">
+ </bean>
+ 
+ <bean id="b" class="right.way.learning.fourth.application.Building">
+ </bean>
+ 
+ <bean id="s1" class="right.way.learning.fourth.application.Student"  autowire-candidate="false">
+ </bean> 
+
+ <bean id="s2" class="right.way.learning.fourth.application.Student">
+ </bean> 
+    
+</beans>    
