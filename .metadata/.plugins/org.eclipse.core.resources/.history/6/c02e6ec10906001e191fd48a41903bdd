@@ -1,6 +1,0 @@
-
-<beans>
-	<bean id="std" class="right.way.learning.first.application.Student">
-		
-	</bean>
-</beans>

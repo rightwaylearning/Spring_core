@@ -1,9 +1,0 @@
-package right.way.learning.first.application;
-
-public class Student {
-
-	private Integer rollNumber;
-	private String fullName;
-	private String schoolName;
-	
-}

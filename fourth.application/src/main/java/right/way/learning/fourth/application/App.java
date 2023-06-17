@@ -18,11 +18,12 @@ public class App
        
        Student s = school.getStudent();
        Building b =school.getBuilding();
+       
        System.out.println(s);
        System.out.println(b);
        
-       System.out.println(s.getMessage());
-       System.out.println(b.getMessage());
+//       System.out.println(s.getMessage());
+//       System.out.println(b.getMessage());
     	
     }
 }
