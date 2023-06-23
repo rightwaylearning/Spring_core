@@ -29,6 +29,11 @@
     <fullyQualifiedTypeName name="right.way.learning.fourth.application.School"/>
     <fullyQualifiedTypeName name="right.way.learning.fourth.application.Student"/>
     <fullyQualifiedTypeName name="right.way.learning.fourth.application.Building"/>
+    <fullyQualifiedTypeName name="right.way.learning.second.application.bean.scope.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptor"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="right.way.learning.third.application.lookup.method.injection.Teacher"/>
+    <fullyQualifiedTypeName name="right.way.learning.third.application.lookup.method.injection.Student"/>
 </qualifiedTypeNameHistroy>

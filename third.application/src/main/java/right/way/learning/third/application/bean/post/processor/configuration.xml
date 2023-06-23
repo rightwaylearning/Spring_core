@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+      
+     <bean id="student" class="right.way.learning.third.application.bean.post.processor.Student">
+	 </bean> 
+	 
+	 <bean id="teacher" class="right.way.learning.third.application.bean.post.processor.Teacher">
+	 </bean> 
+	 
+	 <bean id="security" class="right.way.learning.third.application.bean.post.processor.Security">
+	 </bean> 
+	 
+	 <bean id="id1" class="right.way.learning.third.application.bean.post.processor.TakeIcard"></bean>
+</beans>
+  
