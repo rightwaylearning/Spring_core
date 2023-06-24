@@ -32,8 +32,18 @@
     <fullyQualifiedTypeName name="right.way.learning.second.application.bean.scope.Employee"/>
     <fullyQualifiedTypeName name="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptor"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="right.way.learning.third.application.lookup.method.injection.Teacher"/>
     <fullyQualifiedTypeName name="right.way.learning.third.application.lookup.method.injection.Student"/>
+    <fullyQualifiedTypeName name="right.way.learning.third.application.bean.life.cycle.FactroyWorker"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Destroyable"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.function.IntBinaryOperator"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+    <fullyQualifiedTypeName name="right.way.learning.third.application.bean.post.processor.Student"/>
+    <fullyQualifiedTypeName name="right.way.learning.third.application.bean.post.processor.Teacher"/>
+    <fullyQualifiedTypeName name="right.way.learning.third.application.bean.post.processor.Security"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>
