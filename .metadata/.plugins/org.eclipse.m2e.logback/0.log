@@ -3065,3 +3065,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2023-06-25 10:54:34,616 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\fifth.annoation.based.application\src\main\resources
 2023-06-25 10:54:34,619 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-06-25 10:54:34,621 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring_core\fifth.annoation.based.application\src\test\resources
+2023-06-26 08:08:43,435 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
