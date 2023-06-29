@@ -2,17 +2,20 @@ package right.way.learning.product.info.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
+
 import right.way.learning.product.info.model.Product;
 import right.way.learning.product.info.services.ProductService;
-import right.way.learning.product.info.services.ProductServiceImpl;
 
+@Controller(value = "productController")
 public class ProductController {
 
-	private ProductService service = null;
+	@Autowired
+	@Qualifier(value = "productServiceImpl")
+	private ProductService service;
 	
-	public ProductController() {
-		this.service =  new ProductServiceImpl();
-	}
 	
 	public Boolean saveProductObject(Product product) {
 		return service.saveProduct(product);

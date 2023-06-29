@@ -25,6 +25,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="right.way.learning.product.info"/>
 			<item value="right.way.learning.fifth.annoation.based.application"/>
 			<item value="right.way.learning.fourth.application"/>
 			<item value="right.way.learning.third.application"/>
@@ -36,6 +37,7 @@
 			<item value="right.way.learning"/>
 		</list>
 		<list key="artifactId">
+			<item value="product"/>
 			<item value="fifth.annoation.based.application"/>
 			<item value="fourth.application"/>
 			<item value="third.application"/>

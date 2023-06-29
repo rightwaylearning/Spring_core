@@ -1,11 +1,14 @@
 package right.way.learning.product.info.model;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope(value = "prototype")
 public class Product {
 
 	private Integer productId;
-	
 	private String productName;
-	
 	private Double productPrice;
 	
 	public Product() {}
