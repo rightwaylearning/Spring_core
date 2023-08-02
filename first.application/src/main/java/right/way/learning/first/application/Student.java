@@ -6,6 +6,11 @@ public class Student {
 	private String fullName;
 	private String schoolName;
 	
+	
+	public Student() {
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
+	}
+	
 	public Integer getRollNumber() {
 		return rollNumber;
 	}
