@@ -10,6 +10,8 @@ public class MyCammandLineRunner implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 		System.out.println("I am CommandLineRunner");
+		System.out.println(args.length);
+		System.out.println(args[0]);
 	}
 
 }

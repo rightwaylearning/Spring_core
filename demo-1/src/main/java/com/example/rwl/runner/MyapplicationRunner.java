@@ -24,6 +24,10 @@ public class MyapplicationRunner implements ApplicationRunner {
 	    List<Student> list = iStudentService.getList();
 	    
 	    System.out.println(list);
+		
+		//args.getNonOptionArgs()
+		
+	//	System.out.println(args.getOptionNames());
 	}
 
 }

@@ -25,6 +25,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="right.way.learning.hibernate.with.jpa"/>
+			<item value="right.way.learning.jdbc_demo_example"/>
 			<item value="right.way.learning.pune_city_info"/>
 			<item value="right.way.learning.product.info"/>
 			<item value="right.way.learning.fifth.annoation.based.application"/>
@@ -38,6 +40,8 @@
 			<item value="right.way.learning"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate.with.jpa"/>
+			<item value="jdbc-demo-example"/>
 			<item value="pune_city_info"/>
 			<item value="product"/>
 			<item value="fifth.annoation.based.application"/>
@@ -84,6 +88,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring_core\profiles"/>
 			<item value="D:\Spring_core\Spring-first-app"/>
 			<item value="D:\Spring_core\spring-boot-1-sample-example"/>
 			<item value="D:\Spring_core\BharatBasServices\BharatBasServices"/>
@@ -97,5 +102,11 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
 	</section>
 </section>
