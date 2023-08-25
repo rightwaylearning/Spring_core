@@ -88,6 +88,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring_core\customer-crud-operation"/>
 			<item value="D:\Spring_core\profiles"/>
 			<item value="D:\Spring_core\Spring-first-app"/>
 			<item value="D:\Spring_core\spring-boot-1-sample-example"/>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="rwl.springboot1sampleexample.Test"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.SpringBootConfiguration"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
-    <fullyQualifiedTypeName name="right.way.learning.pune_city_info.MyCityDetails"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext"/>
     <fullyQualifiedTypeName name="rwl.springboot1sampleexample.Sample"/>
     <fullyQualifiedTypeName name="org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent"/>
@@ -15,10 +9,7 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
     <fullyQualifiedTypeName name="java.rmi.StubNotFoundException"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.example.rwl.dao.IStudentDao"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="com.example.rwl.service.IStudentService"/>
     <fullyQualifiedTypeName name="com.example.rwl.model.Student"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
@@ -35,10 +26,7 @@
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
-    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
     <fullyQualifiedTypeName name="com.example.rwl.Student"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Persistence"/>
     <fullyQualifiedTypeName name="java.lang.invoke.ClassSpecializer.Factory"/>
@@ -46,10 +34,6 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="right.way.learning.hibernate.with.jpa.dao.EmployeeRepository"/>
     <fullyQualifiedTypeName name="right.way.learning.hibernate.with.jpa.dao.EmployeeRepositoryImpl"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="right.way.learning.hibernate.with.utility.CreateEntityManager"/>
@@ -59,5 +43,21 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Query"/>
     <fullyQualifiedTypeName name="right.way.learning.hibernate.with.jpa.entity.Employee"/>
     <fullyQualifiedTypeName name="org.hibernate.sql.ast.spi.AbstractSqlAstTranslator"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.customer.info.customercrudoperation.dao.CustomreDao"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+    <fullyQualifiedTypeName name="com.customer.info.customercrudoperation.service.CustomerServices"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="com.customer.info.customercrudoperation.entity.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.LinkageError"/>
     <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
