@@ -21,7 +21,7 @@ public interface CustomerServices {
 	// select * from T
 	public Iterable<Customer> findAll();
 	
-	// search bulk object & also pass bulk Id object
+	// search bulk object & also pass bulk Id object 
 	public Iterable<Customer> findAllById(Iterable<Integer> ids);
 	
 	// select count(*) from T
