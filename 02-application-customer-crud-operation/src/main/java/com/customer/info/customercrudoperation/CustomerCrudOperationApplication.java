@@ -1,16 +1,11 @@
 package com.customer.info.customercrudoperation;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.customer.info.customercrudoperation.entity.Customer;
 import com.customer.info.customercrudoperation.service.CustomerServices;
 
 @SpringBootApplication
