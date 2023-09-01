@@ -2,8 +2,12 @@ package rwl.com.in.applicationhibenareproperties.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
+import jakarta.persistence.TableGenerator;
 
 @Entity
 @Table(name="movie")
@@ -11,6 +15,20 @@ public class Movie {
 
 	@Id
 	@Column(name = "movie_id")
+	@GeneratedValue(
+			strategy = GenerationType.TABLE,
+			generator = "mytable"
+	)
+	
+	@TableGenerator(
+			name = "mytable",
+			table = "minedb_sequence_table",
+			pkColumnName = "seq_name",
+			valueColumnName = "seq_value",
+			pkColumnValue = "movie_seq_id",
+			initialValue = 1,
+			allocationSize = 1
+	)
 	Integer movieId;
 	
 	@Column(name = "movie_name")
@@ -36,6 +54,15 @@ public class Movie {
 	public Movie(Integer movieId, String movieName, String directedBy, String producedBy, String leadActor,Double boxOfficeCollection) {
 		super();
 		this.movieId = movieId;
+		this.movieName = movieName;
+		this.directedBy = directedBy;
+		this.producedBy = producedBy;
+		this.leadActor = leadActor;
+		this.boxOfficeCollection = boxOfficeCollection;
+	}
+	
+	public Movie(String movieName, String directedBy, String producedBy, String leadActor,Double boxOfficeCollection) {
+		super();
 		this.movieName = movieName;
 		this.directedBy = directedBy;
 		this.producedBy = producedBy;
