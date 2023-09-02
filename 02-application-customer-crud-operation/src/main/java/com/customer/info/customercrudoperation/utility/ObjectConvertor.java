@@ -22,6 +22,16 @@ public class ObjectConvertor {
 	
 	}
 	
+	public static Iterable<CustomerModel> covertorCutomerToCustModel(Iterable<Customer> customer) {
+		  List<CustomerModel> list = new ArrayList<>();
+
+		  for(Customer model:customer) {
+			  list.add(new CustomerModel(model.getCustometId(), model.getCustomerFirstName(), model.getCustomerLastName(), model.getContactNumber(), model.getEmail()));
+		  }
+		  return list;
+	
+	}
+	
 	public static CustomerModel covertorCutomertoCustomerModle(Customer model) {
 		  return new CustomerModel(model.getCustometId(), model.getCustomerFirstName(), model.getCustomerLastName(), model.getContactNumber(), model.getEmail());
 		}

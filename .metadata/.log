@@ -7162,3 +7162,907 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-01 09:58:03.552
 !MESSAGE Classpath changed for project: 03-application-hibenare-properties
+!SESSION 2023-09-02 01:17:05.093 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data D:\Spring_core -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-09-02 01:17:09.827
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-02 01:17:09.827
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-02 01:17:09.827
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-09-02 01:17:13.126
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\sachi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin\javaw.exe
+-cp
+C:\Users\sachi\eclipse\java-2022-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\sachi\eclipse\java-2022-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\sachi\eclipse\java-2022-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Spring_core/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1693597633125
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:13.126
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-09-02 01:17:13.148
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 21016
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-09-02 01:17:13.179
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:288)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-02 01:17:15.038
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sachi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.201
+!MESSAGE Boot project ADDED: 01-application-rest-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.201
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.206
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.237
+!MESSAGE Boot project ADDED: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.238
+!MESSAGE Boot project ADDED: 03-application-hibenare-properties
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.256
+!MESSAGE Boot project ADDED: BharatBasServices
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.273
+!MESSAGE Boot project ADDED: Spring-first-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.296
+!MESSAGE Boot project ADDED: UserInformation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.306
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.321
+!MESSAGE Boot project ADDED: demo-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.335
+!MESSAGE Boot project ADDED: demo-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.350
+!MESSAGE Boot project ADDED: demo-3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.363
+!MESSAGE Boot project ADDED: fifth.annoation.based.application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.364
+!MESSAGE Boot project ADDED: first.application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.369
+!MESSAGE Boot project ADDED: fourth.application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.403
+!MESSAGE Boot project ADDED: product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.432
+!MESSAGE Boot project ADDED: profiles
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.447
+!MESSAGE Boot project ADDED: second.application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.464
+!MESSAGE Boot project ADDED: spring-boot-1-sample-example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:17:15.469
+!MESSAGE Boot project ADDED: third.application
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:24:49.340
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:26:11.366
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.eclipse.jface 2 0 2023-09-02 01:27:04.716
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-02 01:27:04.716
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:27:05.825
+!MESSAGE Could not get trigger characters due to timeout after 50 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:272)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:308)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1840)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5152)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:27:05.878
+!MESSAGE Could not get trigger characters due to timeout after 50 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:272)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:315)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1251)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1840)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5152)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:27:13.172
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:27:14.507
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:27:14.674
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:27:18.317
+!MESSAGE Could not get hover region due to timeout after 1000 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:27:19.322
+!MESSAGE Could not get hover information due to timeout after 1000 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:27:31.846
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:28:08.339
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:28:13.998
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:28:40.064
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:28:54.397
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:29:11.584
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:31:49.248
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:36:00.032
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:36:37.484
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:36:59.377
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:37:08.416
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:37:15.373
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:37:18.171
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:37:18.578
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:39:41.366
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:39:46.869
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:40:06.665
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 01:40:11.012
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:40:18.408
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:40:23.681
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:47:20.815
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:47:21.953
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:47:23.270
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:48:01.264
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:48:47.721
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:50:05.235
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:50:06.431
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:54:07.770
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:54:18.339
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:55:11.144
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:55:19.058
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:55:34.399
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:57:20.523
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:57:50.068
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:57:58.325
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:58:20.652
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:58:21.794
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:58:29.689
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:58:30.912
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:58:54.011
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 01:58:57.935
+!MESSAGE Classpath changed for project: 02-application-customer-crud-operation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:24:52.065
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:24:55.190
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:24:55.191
+!MESSAGE Boot project ADDED: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:24:56.225
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:25:44.055
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:25:45.130
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:28:45.749
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:29:07.573
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:29:35.158
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:32:36.224
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:33:12.390
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:34:12.316
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:34:46.378
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:37:30.436
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:39:25.256
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:39:34.870
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:39:51.928
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:40:46.758
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:41:06.125
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:41:22.555
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:41:47.951
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:41:54.682
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:42:01.770
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:42:29.007
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:43:04.953
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:44:01.727
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:44:15.105
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:44:17.201
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:44:36.582
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 09:45:07.921
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:45:08.797
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:45:34.797
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:46:13.970
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:46:17.137
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:46:53.894
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:46:58.368
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:47:42.995
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:48:06.924
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:48:20.487
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:48:28.574
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:49:19.274
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:49:30.271
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:49:33.554
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:50:12.579
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-09-02 09:50:20.946
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-09-02 09:50:20.948
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): save(Customer) [in UserService [in [Working copy] UserService.java [in rwl.user.information.userrestapiwithexceptionhandling.services [in src/main/java [in 04-user-rest-api-with-exception-handling]]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:617)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:645)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:521)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:748)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:666)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:658)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-09-02 09:50:20.948
+!MESSAGE save(Customer) [in UserService [in [Working copy] UserService.java [in rwl.user.information.userrestapiwithexceptionhandling.services [in src/main/java [in 04-user-rest-api-with-exception-handling]]]]] does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:50:34.284
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:50:36.384
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:51:10.436
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 09:51:26.549
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:00:16.532
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:01:07.398
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:02:39.565
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:06:07.017
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:07:35.852
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:08:14.875
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:08:56.753
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:09:49.421
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:09:53.704
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:10:05.589
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:11:15.173
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:12:01.742
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:13:02.501
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:14:53.943
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:15:51.700
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:15:54.982
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:16:16.034
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:16:20.685
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:16:27.306
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:16:32.449
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:16:37.530
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:17:16.857
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:17:18.990
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:17:49.946
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:21:26.498
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:22:17.540
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:22:28.872
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:23:02.895
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:23:28.261
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:23:32.052
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:28:49.737
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:29:34.055
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:29:42.290
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:30:09.390
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:30:15.832
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:30:23.348
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:30:27.244
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:30:30.393
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:30:37.019
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:31:06.088
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:31:45.837
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:32:28.118
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:32:38.996
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:33:41.897
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:35:56.977
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:36:07.264
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:37:28.339
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:39:59.418
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:40:06.671
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:40:14.914
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:40:55.937
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:41:08.833
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:43:23.921
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:43:40.171
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:44:18.893
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:44:23.361
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:47:02.259
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:47:13.683
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:47:34.872
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:47:37.322
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:47:51.420
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:48:11.030
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:48:36.662
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:48:57.208
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:49:20.541
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:50:02.253
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-02 10:50:27.866
+!MESSAGE Classpath changed for project: 04-user-rest-api-with-exception-handling

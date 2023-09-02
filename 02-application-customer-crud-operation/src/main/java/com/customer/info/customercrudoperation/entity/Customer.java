@@ -1,5 +1,6 @@
 package com.customer.info.customercrudoperation.entity;
 
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

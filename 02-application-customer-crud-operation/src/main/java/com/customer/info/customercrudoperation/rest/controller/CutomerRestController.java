@@ -48,7 +48,7 @@ public class CutomerRestController {
 		Iterable<Customer> customers = customerServices.findAll();
 		return new ResponseEntity<Iterable<Customer>>(customers,HttpStatus.OK);
 	} 
-	
+		
 //  http://localhost:8080/customer/1234
 	@GetMapping("/customer/{customerId}")
 	public ResponseEntity<Customer> getCustomer(@PathVariable Integer customerId){
