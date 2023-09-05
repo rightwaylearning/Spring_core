@@ -7,11 +7,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import rwl.user.information.userrestapiwithexceptionhandling.entity.User;
-import rwl.user.information.userrestapiwithexceptionhandling.exception.handling.InvalidUserId;
 import rwl.user.information.userrestapiwithexceptionhandling.services.UserService;
 
 @RestController
@@ -25,9 +26,9 @@ public class UserRestControoler {
 	@GetMapping(value = "/{userId}")
 	public ResponseEntity<User> getUser(@PathVariable("userId") Integer userId){
 		
-		if(userId <= 0) {
-			throw new InvalidUserId();
-		}
+//		if(userId <= 0) {
+//			throw new InvalidUserId();
+//		}
 		
 		Optional<User> user = userService.findById(userId);
 		//int a =10/0;
@@ -45,6 +46,9 @@ public class UserRestControoler {
 		return new ResponseEntity<Iterable<User>>(list,HttpStatus.OK);
 	}
 	
-	
+	@PostMapping(value = "/save",produces = "application/xml", consumes = "application/xml")
+	public ResponseEntity<User> saveUser(@RequestBody User user){
+			return new ResponseEntity<User>(user,HttpStatus.OK);
+	}
 	
 }

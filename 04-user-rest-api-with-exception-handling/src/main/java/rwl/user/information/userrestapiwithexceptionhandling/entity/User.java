@@ -1,5 +1,7 @@
 package rwl.user.information.userrestapiwithexceptionhandling.entity;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,11 +9,20 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.TableGenerator;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Entity
 @Table(name = "user")
+@JacksonXmlRootElement(localName = "root")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class User {
 
 	@Id
@@ -38,54 +49,5 @@ public class User {
 	
 	@Column(name = "user_email")
 	private String userEmail;
-	
-	public User() {}
-
-	public User(Integer userId, String userName, String userCellNumber, String userEmail) {
-		super();
-		this.userId = userId;
-		this.userName = userName;
-		this.userCellNumber = userCellNumber;
-		this.userEmail = userEmail;
-	}
-
-	public Integer getUserId() {
-		return userId;
-	}
-
-	public void setUserId(Integer userId) {
-		this.userId = userId;
-	}
-
-	public String getUserName() {
-		return userName;
-	}
-
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-
-	public String getUserCellNumber() {
-		return userCellNumber;
-	}
-
-	public void setUserCellNumber(String userCellNumber) {
-		this.userCellNumber = userCellNumber;
-	}
-
-	public String getUserEmail() {
-		return userEmail;
-	}
-
-	public void setUserEmail(String userEmail) {
-		this.userEmail = userEmail;
-	}
-
-	@Override
-	public String toString() {
-		return "User [userId=" + userId + ", userName=" + userName + ", userCellNumber=" + userCellNumber
-				+ ", userEmail=" + userEmail + "]";
-	}
-	
-	
+		
 }

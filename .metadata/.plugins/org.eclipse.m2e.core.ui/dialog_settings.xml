@@ -88,6 +88,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring_core\05-user-rest-api-with-xml-request-response"/>
+			<item value="D:\Spring_core\04-user-rest-api-with-exception-handling"/>
 			<item value="D:\Spring_core\03-application-hibenare-properties"/>
 			<item value="D:\Spring_core\01-application-rest-api"/>
 			<item value="D:\Spring_core\customer-crud-operation"/>
