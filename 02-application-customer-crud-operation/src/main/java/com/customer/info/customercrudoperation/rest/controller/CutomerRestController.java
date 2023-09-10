@@ -28,11 +28,11 @@ public class CutomerRestController {
 	// http://localhost:8080/save + post	
 	
 	//  http://localhost:8080/save
-	@PostMapping(value = "/save", consumes = "application/json", produces = "application/json")
-    public ResponseEntity<Customer> saveCustomer(@RequestBody CustomerModel customerMOdel){
+	@PostMapping(value = "/save", consumes = "application/json")
+    public Object saveCustomer(@RequestBody CustomerModel customerMOdel){
 		Customer cust = ObjectConvertor.covertorCustModeltoCutomer(customerMOdel);
 		Customer customer = customerServices.save(cust);
-		return new ResponseEntity<Customer>(customer, HttpStatus.OK);
+		return null;
 	}
 	 //http://localhost:8080/saveall
 	@PostMapping(value = "/saveall", consumes = "application/json", produces = "application/json")
