@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,20 +23,21 @@ import com.customer.info.customercrudoperation.service.CustomerServices;
 import com.customer.info.customercrudoperation.utility.ObjectConvertor;
 
 @RestController
+@RequestMapping("/api")
 public class CutomerRestController {
 
 	@Autowired
 	private CustomerServices customerServices;
-	// http://localhost:8080/save + post	
+	// http://localhost:8080/api/save + post	
 	
-	//  http://localhost:8080/save
+	//  http://localhost:8080/api/save
 	@PostMapping(value = "/save", consumes = "application/json")
     public Object saveCustomer(@RequestBody CustomerModel customerMOdel){
 		Customer cust = ObjectConvertor.covertorCustModeltoCutomer(customerMOdel);
 		Customer customer = customerServices.save(cust);
 		return null;
 	}
-	 //http://localhost:8080/saveall
+	 //http://localhost:8080/api/saveall
 	@PostMapping(value = "/saveall", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Iterable<Customer>> saveAllCustomer(@RequestBody List<CustomerModel> customerMOdel){
 		Iterable<Customer> cust  = ObjectConvertor.covertorCustModeltoCutomer(customerMOdel);
@@ -42,14 +45,15 @@ public class CutomerRestController {
 		return new ResponseEntity<Iterable<Customer>>(customer, HttpStatus.OK);
 	}
 	
-	 //  http://localhost:8080/customers
+	BasicErrorController b= null;
+	 //  http://localhost:8080/api/customers
 	@GetMapping("/customers")
 	public ResponseEntity<Iterable<Customer>> getAllCustomer(){
 		Iterable<Customer> customers = customerServices.findAll();
 		return new ResponseEntity<Iterable<Customer>>(customers,HttpStatus.OK);
 	} 
 		
-//  http://localhost:8080/customer/1234
+//  http://localhost:8080/api/customer/1234
 	@GetMapping("/customer/{customerId}")
 	public ResponseEntity<Customer> getCustomer(@PathVariable Integer customerId){
 		Optional<Customer> customer = customerServices.findById(customerId);

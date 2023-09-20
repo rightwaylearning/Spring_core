@@ -5,14 +5,17 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import com.customer.info.customercrudoperation.service.CustomerServices;
 
+@EnableWebMvc
 @SpringBootApplication
 public class CustomerCrudOperationApplication implements ApplicationRunner{
 	
 	@Autowired
 	private CustomerServices customerServices;
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerCrudOperationApplication.class, args);
