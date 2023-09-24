@@ -90,6 +90,11 @@ public class CutomerRestController {
 		return new ResponseEntity<Boolean>(!this.customerServices.existsById(customer.getCustometId()),HttpStatus.OK);
 	}
 	
+	@GetMapping("/codeondemand")
+	public String getCode() {
+		return "<a href='https://www.google.com/maps/@18.552169,73.9313543,15z?entry=ttu'>My Current Location</a>";
+	}
+	
 }
 
 
