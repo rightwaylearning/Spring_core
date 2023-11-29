@@ -1,12 +1,21 @@
 package com.customer.info.customercrudoperation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Order;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import com.customer.info.customercrudoperation.entity.Customer;
 import com.customer.info.customercrudoperation.service.CustomerServices;
 
 @EnableWebMvc
@@ -16,6 +25,7 @@ public class CustomerCrudOperationApplication implements ApplicationRunner{
 	@Autowired
 	private CustomerServices customerServices;
 	
+		
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerCrudOperationApplication.class, args);
@@ -58,6 +68,16 @@ public class CustomerCrudOperationApplication implements ApplicationRunner{
 //		System.out.println(count);
 		
 		
+//		 Page<Customer> page= customerServices.findMypage(PageRequest.of(1, 3, Sort.by("customerFirstName")));
+//		 page.get().forEach(System.out::println);
+//		
+		List<Order> list = new ArrayList<>();
+		list.add(Order.by("customerFirstName"));
+		list.add(Order.by("customerLastName"));
+		
+		Iterable<Customer> data = customerServices.findAllByMyOrder(Sort.by(list));
+	
+	     data.forEach(System.out::println);
 	}
 
 }

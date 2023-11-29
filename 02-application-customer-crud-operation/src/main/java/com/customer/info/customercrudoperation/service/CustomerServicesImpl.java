@@ -3,6 +3,9 @@ package com.customer.info.customercrudoperation.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.customer.info.customercrudoperation.dao.CustomreDao;
@@ -77,5 +80,15 @@ public class CustomerServicesImpl implements CustomerServices{
 	@Override
 	public void deleteAll() {
 		this.customreDao.deleteAll();		
+	}
+
+	@Override
+	public Page<Customer> findMypage(Pageable pageable) {
+		return this.customreDao.findAll(pageable);
+	}
+	
+	@Override
+	public Iterable<Customer> findAllByMyOrder(Sort sort) {
+		return this.customreDao.findAll(sort);
 	}
 }

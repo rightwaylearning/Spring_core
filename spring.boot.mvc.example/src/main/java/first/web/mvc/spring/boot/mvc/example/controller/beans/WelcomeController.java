@@ -1,17 +1,21 @@
 package first.web.mvc.spring.boot.mvc.example.controller.beans;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.ModelAndView;
 
-@RestController
+@Controller
 public class WelcomeController {
 
-	
+	@GetMapping(value = "/message")
 	public ModelAndView getMessage() {
 		
-		String message = "This is my spring boot mvc --- first application";
+		String message = "This is my spring boot mvc first application";
 		
-		ModelAndView mav = new ModelAndView("welcome", "dataKey", message);
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("welcome");
+		mav.addObject("key1", message);
 		return mav;
 	}
 }

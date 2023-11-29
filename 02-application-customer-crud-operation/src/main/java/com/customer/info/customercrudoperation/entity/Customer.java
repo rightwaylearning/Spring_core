@@ -21,7 +21,7 @@ public class Customer {
 	
 	@Column(name = "contact_no")
 	private Long contactNumber;
-	
+
 	private String email;
 	
 	public Customer() {}

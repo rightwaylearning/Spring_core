@@ -2,6 +2,10 @@ package com.customer.info.customercrudoperation.service;
 
 import java.util.Optional;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+
 import com.customer.info.customercrudoperation.entity.Customer;
 
 public interface CustomerServices {
@@ -41,4 +45,9 @@ public interface CustomerServices {
 	
 	// delete from T
 	public void deleteAll();
+	
+	Page<Customer> findMypage(Pageable pageable);
+	
+	
+	Iterable<Customer> findAllByMyOrder(Sort sort);
 }
